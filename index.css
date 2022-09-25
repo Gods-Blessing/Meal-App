@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#picture{
+    height: 50vh;
+    width: 50vw;
+    border: 1px solid black;
+    margin-left: 10vw;
+    margin-top: 10vh;
+}
+
+#button{
+    margin-left: 10%;
+    margin-top: 5vh;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
