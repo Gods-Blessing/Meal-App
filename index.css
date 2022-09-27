@@ -65,3 +65,16 @@ i{
 #heart span{
     margin-left: 10px;
 }
+
+
+
+
+/*---------------------- aside-------------------- */
+aside{
+    position: absolute;
+    top: 10vh;
+    right: 1vw;
+    height: 80vh;
+    width: 20vw;
+    border: 1px solid black;
+}
