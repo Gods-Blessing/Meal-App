@@ -10,7 +10,7 @@ var foodname;
 
 var source;
 
-console.log(localStorage);
+console.log(localStorage.length);
 
 glass.addEventListener('click', function(){
     let inputtext = document.getElementById('searchbar').value;
@@ -71,8 +71,6 @@ document.getElementById('heart').addEventListener('click', function(){
         heart.style.color = 'black';
         localStorage.removeItem(`${source}`);
         document.getElementById(`${source}`).remove();
-        
-        
     }
 });
 
