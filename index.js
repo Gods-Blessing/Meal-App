@@ -174,7 +174,11 @@ if(document.getElementById("list-link")){
     });
 };
 
-
+if(document.getElementById('heartss')){
+    document.getElementById('heartss').addEventListener('click', function(){
+        document.getElementById('heartss').setAttribute('href', './details/details.html');
+    })
+}
 
 
 
