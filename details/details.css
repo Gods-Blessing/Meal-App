@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#containing-ball{
+    height: 20px;
+    width: 55px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+#ball{
+    height: 100%;
+    width: 35%;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+
+h1{
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#homee{
+    width: 6%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 10vw;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home{
+    text-decoration: none;
+    color: black;
+}
+/* -------------------section - conatining image and dish details like name and area etc. */
+#dish-info{
+    height: 50vh;
+    width: 80vw;
+    margin-left: 10vw;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+#img-div{
+    height: 100%;
+    width: 47%;
+    border: 10px solid brown;
+    border-radius: 5%;
+}
+#img-div img{
+    height: 100%;
+    width: 100%;
+}
+
+
+#dish-details{
+    height: 100%;
+    width: 47%;
+    /* border: 1px solid brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#dish-details div{
+    display: flex;
+    align-items: center;
+}
+
+#dish-details div p{
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+#dish-details div a{
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+
+
+
+/* ------------------------ details for ingredients and instructions -----------------------------*/
+#details{
+    height: fit-content;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    /* border: 1px solid darkgreen; */
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+#ingredients{
+    height: 100%;
+    width: 30%;
+    margin-top: 10px;
+    /* border: 1px solid orangered; */
+}
+
+#ingredients-list{
+    height: 100%;
+    width: 100%;
+}
+
+#ingredients h2{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* instructions div */
+#instructions{
+    height: 100%;
+    width: 65%;
+    border-left: 1px solid black;
+    padding-left: 10%;  
+    margin-top: 10px;
+}
+
+#instructions h2{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#instructions-p{
+    font-size: 1.2em;
+}
+
+
+#empty{
+    height: 5vh;
+}

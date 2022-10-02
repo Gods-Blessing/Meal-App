@@ -7,26 +7,32 @@
 <body>
     <h1> Find your favourite Meal</h1>
     <div id="searchbarr">
-        <input id="searchbar" type="text" placeholder="search" alt="Search for your food">
+        <input id="searchbar" type="text" placeholder="search"  alt="Search for your food">
 
         <i id="food-search" class="fa-solid fa-magnifying-glass"></i>
     </div>
+    <ul id="suggestions">
+
+    </ul>
 
     <div id="picture">
         <img id="imgs" src="" alt="">
     </div>
 
-    <div id="heart">
+   <div id="navs">
+    <div  id="heart" class="heart">
         <i id="heart-symbol" class="fa-solid fa-heart"></i>
-        <span><b>Favourite</b></span>
+        <span>Favourite</span>
     </div>
 
-    <aside>
-        <ul id="fav-list">
+    <div>
+        <a class="heart" href="./details/details.html">More Details</a>
+    </div>
 
-        </ul>
-    </aside>
-
+    <div class="heart" >
+        <a id="list-link" href="">Favourites List</a>
+    </div>
+   </div>
 
    
     <script type="text/javascript" src="./index.js"></script>
