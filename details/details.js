@@ -4,6 +4,8 @@ var body = document.getElementById('body');
 // using session storage to show the details of dish searched on homepage
 if(sessionStorage.length == 2){
     inputtext = sessionStorage.key(1);
+}else{
+    inputtext = sessionStorage.key(0);
 }
 var jsonresponsee;
 
